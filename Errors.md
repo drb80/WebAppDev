@@ -63,3 +63,10 @@ or
 </details>
 
 ----
+#<NameError: uninitialized constant Gem::Source
+<details>
+<summary>Fix</summary>
+gem update --system
+</details>
+
+----
