@@ -2,6 +2,8 @@
     EACCES error in Puma or while testing on Windows.
 <details>
 <summary>Fix</summary>
+Sometimes a reload in the browser works, but not always.
+
 For Puma, change the line in config/puma.rb from
 ```
 max_threads_count = ENV.fetch("RAILS_MAX_THREADS") { 5 }
@@ -41,8 +43,7 @@ gem "tzinfo-data" #, platforms: %i[ mingw mswin x64_mingw jruby ]
 </details>
 
 ----
-    An error occurred while installing psych (5.1.0), and Bundler cannot
-    continue.
+    An error occurred while installing psych (5.1.0), and Bundler cannot continue.
 
     In Gemfile:
       debug was resolved to 1.8.0, which depends on
@@ -63,10 +64,36 @@ or
 </details>
 
 ----
-#<NameError: uninitialized constant Gem::Source
+    NameError: uninitialized constant Gem::Source
 <details>
 <summary>Fix</summary>
 gem update --system
+</details>
+
+----
+When testing:
+
+    BooksLibrariesControllerTest#test_should_create_books_library: NameError: Rails couldn't find a valid model for BooksLibrary association.  Please provide the :class_name option on the association declaration. If :class_name is already provided, make sure it's an ActiveRecord::Base subclass.
+<details>
+<summary>Fix</summary>
+Add a class\_name to the has\_many's before the has\_many through's
+
+    class Book < ApplicationRecord
+      has_many :books_libraries, class_name: "BooksLibraries"
+      has_many :libraries, through: :books_libraries
+    end
+
+    class Library < ActiveRecord::Base
+      has_many :books_libraries, class_name: "BooksLibraries"
+      has_many :books, through: :books_libraries
+    end
+
+    class BooksLibraries < ApplicationRecord
+      belongs_to :book
+      belongs_to :library
+    end
+
+I'm not really sure why this is required as it would seem the class name is obvious.
 </details>
 
 ----
