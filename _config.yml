@@ -1,4 +1,4 @@
 remote_theme: pages-themes/modernist@v0.2.0
 plugins:
 - jekyll-remote-theme
-title: [Companion to the Web App Development Book]
+title: [Companion web site to the Web App Development Book]
