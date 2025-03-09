@@ -1,0 +1,19 @@
+My dear colleague,
+
+    I wrote this book after many years of teaching the subject of Web Application Development. I wanted to write a compelling book that does the following.
+
+    1) Engages students by quickly having them create web applications from the first pages.
+    2) Demonstrates the varied type of web applications, from web servers to native apps, to mobile-first applications.
+    3) Introduces and continues to build upon computer science topics such as TDD, revision control, networking, client/server and P2P applications, and application programming interfaces.
+
+    This book has topics that range from simple applications to using sophisticated frameworks to the dark web.
+
+    My experience is that many, if not most, computer science and software engineering professionals are engaged in some type of web development, but we don't typically do an adequate job of preparing our students for this career. Nor do we cover the requisite computer science topics that underlie the web, and other applications.
+
+    One may correctly assert that Ruby on Rails (RoR) is far from the most popular web framework. That said, once Ruby is installed (and the information to do so is in an appendix), creating a viable web application is a few commands away. Also, RoR has had great longevity and inspired many of the other frameworks. To a large degree, if you RoR you know the concepts for many of the other frameworks.  Every other framework also requires installation, a process that few of us consider easy.
+
+    This book has very little information on HTML and CSS, two relatively simple technologies. It does however demonstrate how those two can be integrated into a web application.
+
+    Additionally, there are PowerPoint slides and the code used in the examples are available from the associated web site.
+
+    I hope you find this book interesting and useful; I always welcome feedback!
