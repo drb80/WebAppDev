@@ -1,6 +1,6 @@
 <!-- https://drb80.github.io/WebAppDev/ -->
 # WebAppDev
-[PowerPoints for the chaptrs.](https://drb80.github.io/WebAppDev/Slides)
+[PowerPoints for the chapters.](https://drb80.github.io/WebAppDev/Slides)
 
 [Rails 7 errors and fixes.](https://drb80.github.io/WebAppDev/Errors)
 
