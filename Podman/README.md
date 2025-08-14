@@ -2,8 +2,8 @@
 
 ![Starting the install](One.png "Starting the install")
 
-<!--
-Screenshot\ 2025-08-12\ 193345.png
-Screenshot\ 2025-08-12\ 193725.png
-Screenshot\ 2025-08-12\ 193846.png
--->
+![Finishing the install](Two.png "Finishing the install")
+
+![Initialing Podman](Three.png "Initialing Podman.png")
+
+![Running the container](Four.png "Running the container")
