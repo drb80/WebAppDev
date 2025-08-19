@@ -11,3 +11,4 @@
 [Repositories from the book.](Repositories.md)
 
 [Interesting database diagrams.](https://drb80.github.io/WebAppDev/DBDiagrams)
+
