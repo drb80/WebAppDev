@@ -97,3 +97,13 @@ I'm not really sure why this is required as it would seem the class name is obvi
 </details>
 
 ----
+Podman on Windows not reinstalling correctly.
+This is a bug in the Podman installer, it doesn't remove the container
+directory in .config. Here's what worked for me.
+
+    wsl --unregister podman-machine-default
+    podman machine rm podman-machine-default
+    del C:\users\drsjb\.config\containers\
+    podman machine init
+    podman machine start
+----
