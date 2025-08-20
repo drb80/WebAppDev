@@ -97,3 +97,20 @@ Fix: this is a bug in the Podman installer, it doesn't remove the container dire
     del C:\users\drsjb\.config\containers\
     podman machine init
     podman machine start
+
+<hr/>
+Error: missing sqlite3 dll on Windows
+
+Fix: from [Stackover article](https://stackoverflow.com/questions/17643897/cannot-load-such-file-sqlite3-sqlite3-native-loaderror-on-ruby-on-rails/49736971#49736971)
+
+Replace
+
+    gem 'sqlite3', ">=2.1"
+
+with
+
+    gem 'sqlite3', ">=2.1", git: "https://github.com/sparklemotion/sqlite3-ruby"
+
+Then delete Gemfile.lock and do
+
+    bundle install
