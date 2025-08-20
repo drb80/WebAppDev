@@ -72,9 +72,8 @@ gem update --system
 
 ----
 When testing:
-
-    BooksLibrariesControllerTest#test_should_create_books_library: NameError: Rails couldn't find a valid model for BooksLibrary association.  Please provide the :class_name option on the association declaration. If :class_name is already provided, make sure it's an ActiveRecord::Base subclass.
 <details>
+    BooksLibrariesControllerTest#test\_should\_create\_books\_library: NameError: Rails couldn't find a valid model for BooksLibrary association.  Please provide the :class\_name option on the association declaration. If :class\_name is already provided, make sure it's an ActiveRecord::Base subclass.  <details>
 <summary>Fix</summary>
 Add a class\_name to the has\_many's before the has\_many through's
 
@@ -98,12 +97,15 @@ I'm not really sure why this is required as it would seem the class name is obvi
 
 ----
 Podman on Windows not reinstalling correctly.
-This is a bug in the Podman installer, it doesn't remove the container
-directory in .config. Here's what worked for me.
+
+<details>
+<summary>Fix</summary>
+This is a bug in the Podman installer, it doesn't remove the container directory in .config. Here's what worked for me.
 
     wsl --unregister podman-machine-default
     podman machine rm podman-machine-default
     del C:\users\drsjb\.config\containers\
     podman machine init
     podman machine start
+</details>
 ----
