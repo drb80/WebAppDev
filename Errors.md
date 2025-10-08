@@ -114,3 +114,13 @@ with
 Then delete Gemfile.lock and do
 
     bundle install
+
+
+<hr/>
+Error:
+
+    Metro error: Cannot find module '@radix-ui/react-dialog'`
+
+Fix:
+
+    npm cache clean --force
