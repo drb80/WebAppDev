@@ -1,6 +1,8 @@
+# Errata
+
 The React Native code in the book is wrong; now see: https://github.com/drb80/ReactNativeTodo
 
-<hr/>
+---
 
 What Rails 7 had for mass assignment:
 
@@ -9,4 +11,3 @@ What Rails 7 had for mass assignment:
 has changed to:
 
     params.expect(adivisor: [:name, student_ids: []])
-
