@@ -11,3 +11,7 @@ What Rails 7 had for mass assignment:
 has changed to:
 
     params.expect(adivisor: [:name, student_ids: []])
+
+---
+
+Heroku doesn't have heroku-postgresql:mini anymore, heroku-postgresql:essential-0 is now the least expensive.

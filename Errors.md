@@ -124,3 +124,14 @@ Error:
 Fix:
 
     npm cache clean --force
+
+<hr/>
+Error:
+
+    Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at http://localhost:3000/items.json. (Reason: CORS header ‘Access-Control-Allow-Origin’ missing). Status code: 200.
+
+Fix:
+
+Put the following line in the controller
+
+    protect_from_forgery with: :null_session if Rails.env.development?
