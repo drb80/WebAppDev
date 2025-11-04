@@ -6,3 +6,5 @@
 [Chapter04](https://drb80.github.io/WebAppDev/Slides/Chapter04.pptx)
 
 [Chapter05](https://drb80.github.io/WebAppDev/Slides/Chapter05.pptx)
+
+[Chapter05](https://drb80.github.io/WebAppDev/Slides/Chapter06.pptx)
