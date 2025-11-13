@@ -7,4 +7,6 @@
 
 [Chapter05](https://drb80.github.io/WebAppDev/Slides/Chapter05.pptx)
 
-[Chapter05](https://drb80.github.io/WebAppDev/Slides/Chapter06.pptx)
+[Chapter06](https://drb80.github.io/WebAppDev/Slides/Chapter06.pptx)
+
+[ActionMailer](https://drb80.github.io/WebAppDev/Slides/Actionmailer.pptx)
