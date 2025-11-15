@@ -10,3 +10,5 @@
 [Chapter06](https://drb80.github.io/WebAppDev/Slides/Chapter06.pptx)
 
 [ActionMailer](https://drb80.github.io/WebAppDev/Slides/ActionMailer.pptx)
+
+[Test Code Coverage.pptx](https://drb80.github.io/WebAppDev/Slides/Test Code Coverage.pptx)
