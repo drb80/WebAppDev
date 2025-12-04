@@ -14,3 +14,5 @@
 [ActionMailer](https://drb80.github.io/WebAppDev/Slides/ActionMailer.pptx)
 
 [Test Code Coverage.pptx](https://drb80.github.io/WebAppDev/Slides/Test Code Coverage.pptx)
+
+[Heroku.pptx](https://drb80.github.io/WebAppDev/Slides/Heroku.pptx)
