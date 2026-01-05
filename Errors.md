@@ -128,10 +128,6 @@ Fix:
 <hr/>
 Error:
 
-    Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at http://localhost:3000/items.json. (Reason: CORS header ‘Access-Control-Allow-Origin’ missing). Status code: 200.
-
-or:
-
     Can't verify CSRF token authenticity.
 
 Fix:
