@@ -1,0 +1,11 @@
+#! /usr/bin/env bash
+
+echo "# PowerPoint Slides" > README.md
+
+for i in [a-zA-Z]*.pptx
+do
+    echo "<$i>" >> README.md
+    echo >> README.md
+done
+
+echo "<Master.potm>" >> README.md
