@@ -4,8 +4,8 @@ echo "# PowerPoint Slides" > README.md
 
 for i in [a-zA-Z]*.pptx
 do
-    echo "<$i>" >> README.md
+    echo "[$i]($i)" >> README.md
     echo >> README.md
 done
 
-echo "<Master.potm>" >> README.md
+echo "[Master.potm](Master.potm)" >> README.md
