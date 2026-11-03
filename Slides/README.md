@@ -23,6 +23,8 @@
 
 [HTMX.pptx](HTMX.pptx)
 
+[RSpec and OpenAPI.pptx](RSpec and OpenAPI.pptx)
+
 [Test Code Coverage.pptx](Test Code Coverage.pptx)
 
 [TUI.pptx](TUI.pptx)
