@@ -25,6 +25,8 @@
 
 [RSpec and OpenAPI.pptx](RSpec and OpenAPI.pptx)
 
+[Selenium and Capybara.pptx](Selenium and Capybara.pptx)
+
 [Test Code Coverage.pptx](Test Code Coverage.pptx)
 
 [TUI.pptx](TUI.pptx)
