@@ -19,6 +19,8 @@
 
 [Electron.pptx](Electron.pptx)
 
+[GraphQL.pptx](GraphQL.pptx)
+
 [Heroku.pptx](Heroku.pptx)
 
 [HTMX.pptx](HTMX.pptx)
